@@ -6,6 +6,8 @@ namespace Domain.Interfaces
     {
         List<string> Errors { get; set; }
         string Mensagem { get; set; }
+        string RootPath { get; set; }
+        bool EhAdmin { get; set; }
         T Data { get; set; }
     }
 }

@@ -11,6 +11,5 @@ namespace Domain.Interfaces
         int TotalPaginas { get; set; }
         List<PropriedadeConfig> Cabecalhos { get; set; }
         List<OrdenacaoCampo> OrdenacaoAtual { get; set; }
-        string RootPath { get; set; }
     }
 }
